@@ -1,0 +1,13 @@
+{
+  "scenario_id": "x25519__leaf_slhdsashake192s",
+  "campaign": "A",
+  "tls_group": "X25519",
+  "chain_profile": "slh_root__slh_leaf",
+  "host": "localhost",
+  "port": 4433,
+  "server_name": "pqc2.server",
+  "runs": 5000,
+  "capture_perf_client": true,
+  "capture_perf_server": false,
+  "capture_pcap": true
+}

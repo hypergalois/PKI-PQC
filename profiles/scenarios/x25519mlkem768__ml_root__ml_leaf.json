@@ -1,0 +1,13 @@
+{
+  "scenario_id": "x25519mlkem768__ml_root__ml_leaf",
+  "campaign": "C",
+  "tls_group": "X25519MLKEM768",
+  "chain_profile": "ml_root__ml_leaf",
+  "host": "localhost",
+  "port": 4433,
+  "server_name": "pqc2.server",
+  "runs": 5000,
+  "capture_perf_client": true,
+  "capture_perf_server": false,
+  "capture_pcap": true
+}

@@ -1,0 +1,14 @@
+{
+  "profile_id": "ml_root__ml_leaf",
+  "description": "Root ML-DSA, leaf ML-DSA",
+  "depth": 2,
+  "root": {
+    "sig_alg": "mldsa65",
+    "subject_cn": "Lab2 Root ML-DSA"
+  },
+  "leaf": {
+    "key_alg": "mldsa65",
+    "subject_cn": "pqc2.server",
+    "san_dns": "pqc2.server"
+  }
+}

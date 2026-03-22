@@ -1,0 +1,14 @@
+{
+  "profile_id": "slh_root__slh_leaf",
+  "description": "Root SLH-DSA, leaf SLH-DSA",
+  "depth": 2,
+  "root": {
+    "sig_alg": "slhdsashake192s",
+    "subject_cn": "Lab2 Root SLH-DSA"
+  },
+  "leaf": {
+    "key_alg": "slhdsashake192s",
+    "subject_cn": "pqc2.server",
+    "san_dns": "pqc2.server"
+  }
+}

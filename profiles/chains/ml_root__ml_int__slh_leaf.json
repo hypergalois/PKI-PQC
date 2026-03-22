@@ -1,0 +1,20 @@
+{
+  "profile_id": "ml_root__ml_int__slh_leaf",
+  "description": "Root ML-DSA, intermediate ML-DSA, leaf SLH-DSA",
+  "depth": 3,
+  "root": {
+    "sig_alg": "mldsa65",
+    "subject_cn": "Lab2 Root ML-DSA"
+  },
+  "intermediate": {
+    "key_alg": "mldsa65",
+    "issuer_sig_by_root": true,
+    "subject_cn": "Lab2 Intermediate ML-DSA"
+  },
+  "leaf": {
+    "key_alg": "slhdsashake192s",
+    "issuer_sig_by_intermediate": true,
+    "subject_cn": "pqc2.server",
+    "san_dns": "pqc2.server"
+  }
+}
