@@ -1,0 +1,25 @@
+{
+  "profile_id": "slh_root__slh_int__slh_leaf",
+  "depth": 3,
+  "root": {
+    "algorithm": "slhdsashake192s",
+    "subject_cn": "Lab2 Root SLH-DSA",
+    "der_bytes": 16552
+  },
+  "intermediate": {
+    "algorithm": "slhdsashake192s",
+    "subject_cn": "Lab2 Intermediate SLH-DSA",
+    "der_bytes": 16560
+  },
+  "leaf": {
+    "algorithm": "slhdsashake192s",
+    "subject_cn": "pqc2.server",
+    "san_dns": "pqc2.server",
+    "der_bytes": 16595
+  },
+  "served_chain": {
+    "len": 2,
+    "der_bytes": 33155
+  },
+  "verify_output": "/home/jose/tls-pqc-lab/pki_factory/output/slh_root__slh_int__slh_leaf/certs/server.crt: OK"
+}

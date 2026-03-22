@@ -1,0 +1,21 @@
+{
+  "profile_id": "slh_root__ml_leaf",
+  "depth": 2,
+  "root": {
+    "algorithm": "slhdsashake192s",
+    "subject_cn": "Lab2 Root SLH-DSA",
+    "der_bytes": 16552
+  },
+  "intermediate": null,
+  "leaf": {
+    "algorithm": "mldsa65",
+    "subject_cn": "pqc2.server",
+    "san_dns": "pqc2.server",
+    "der_bytes": 18495
+  },
+  "served_chain": {
+    "len": 1,
+    "der_bytes": 18495
+  },
+  "verify_output": "/home/jose/tls-pqc-lab/pki_factory/output/slh_root__ml_leaf/certs/server.crt: OK"
+}

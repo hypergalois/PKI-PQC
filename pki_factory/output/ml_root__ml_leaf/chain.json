@@ -1,0 +1,21 @@
+{
+  "profile_id": "ml_root__ml_leaf",
+  "depth": 2,
+  "root": {
+    "algorithm": "mldsa65",
+    "subject_cn": "Lab2 Root ML-DSA",
+    "der_bytes": 5543
+  },
+  "intermediate": null,
+  "leaf": {
+    "algorithm": "mldsa65",
+    "subject_cn": "pqc2.server",
+    "san_dns": "pqc2.server",
+    "der_bytes": 5579
+  },
+  "served_chain": {
+    "len": 1,
+    "der_bytes": 5579
+  },
+  "verify_output": "/home/jose/tls-pqc-lab/pki_factory/output/ml_root__ml_leaf/certs/server.crt: OK"
+}

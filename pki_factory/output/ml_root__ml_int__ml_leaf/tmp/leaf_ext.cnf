@@ -1,0 +1,6 @@
+basicConstraints=critical,CA:FALSE
+keyUsage=critical,digitalSignature
+extendedKeyUsage=serverAuth
+subjectAltName=DNS:pqc2.server
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid,issuer
