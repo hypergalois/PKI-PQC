@@ -1,0 +1,12 @@
+# OpenSSL formatting is close to Linux Kernel's , which is close
+# to LLVM's.
+BasedOnStyle: LLVM
+
+# The following rules tries to reproduce the OpenSSL coding style defined
+# in the following document: https://www.openssl.org/policies/technical/coding-style.html
+
+# Chapter 1: Indentation.
+
+## Use 4 space characters, not tabs.
+UseTab: Never
+IndentWidth: 4

@@ -1,0 +1,652 @@
+need to re-build static liboqs...
+cloning liboqs main...
+Cloning into 'liboqs'...
+-- The C compiler identification is GNU 13.3.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test CC_SUPPORTS_WA_NOEXECSTACK
+-- Performing Test CC_SUPPORTS_WA_NOEXECSTACK - Success
+-- Performing Test LD_SUPPORTS_WL_Z_NOEXECSTACK
+-- Performing Test LD_SUPPORTS_WL_Z_NOEXECSTACK - Success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Algorithms filtered for KEM_ml_kem_512;KEM_ml_kem_768;KEM_ml_kem_1024;SIG_ml_dsa_44;SIG_ml_dsa_65;SIG_ml_dsa_87;SIG_falcon_512;SIG_falcon_1024;SIG_falcon_padded_512;SIG_falcon_padded_1024;SIG_slh_dsa_pure_sha2_128s;SIG_slh_dsa_pure_sha2_128f;SIG_slh_dsa_pure_sha2_192s;SIG_slh_dsa_pure_sha2_192f;SIG_slh_dsa_pure_sha2_256s;SIG_slh_dsa_pure_sha2_256f;SIG_slh_dsa_pure_shake_128s;SIG_slh_dsa_pure_shake_128f;SIG_slh_dsa_pure_shake_192s;SIG_slh_dsa_pure_shake_192f;SIG_slh_dsa_pure_shake_256s;SIG_slh_dsa_pure_shake_256f
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found suitable version "3.0.13", minimum required is "1.1.1")  
+-- Looking for aligned_alloc
+-- Looking for aligned_alloc - found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for memalign
+-- Looking for memalign - found
+-- Looking for explicit_bzero
+-- Looking for explicit_bzero - found
+-- Looking for explicit_memset
+-- Looking for explicit_memset - not found
+-- Looking for memset_s
+-- Looking for memset_s - not found
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done (2.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/jose/tls-pqc-lab/oqs-provider/liboqs/_build
+[1/534] Building C object src/common/CMakeFiles/common.dir/aes/aes_impl.c.o
+[2/534] Building C object src/common/CMakeFiles/common.dir/aes/aes.c.o
+[3/534] Building C object src/CMakeFiles/oqs.dir/kem/kem.c.o
+[4/534] Building C object src/CMakeFiles/oqs.dir/sig_stfl/sig_stfl.c.o
+[5/534] Building C object src/common/CMakeFiles/common.dir/aes/aes128_ni.c.o
+[6/534] Building C object src/common/CMakeFiles/common.dir/sha2/sha2.c.o
+[7/534] Building C object src/CMakeFiles/oqs.dir/sig/sig.c.o
+[8/534] Building C object src/common/CMakeFiles/common.dir/aes/aes256_ni.c.o
+[9/534] Building C object src/common/CMakeFiles/common.dir/sha3/avx512vl_sha3x4.c.o
+[10/534] Building C object src/common/CMakeFiles/common.dir/sha3/sha3.c.o
+[11/534] Building C object src/common/CMakeFiles/common.dir/sha3/avx512vl_sha3.c.o
+[12/534] Building C object src/common/CMakeFiles/common.dir/sha3/xkcp_sha3.c.o
+[13/534] Building C object src/common/CMakeFiles/common.dir/sha2/sha2_ossl.c.o
+[14/534] Building C object src/common/CMakeFiles/common.dir/sha3/sha3x4.c.o
+[15/534] Building C object src/common/CMakeFiles/common.dir/sha3/xkcp_sha3x4.c.o
+[16/534] Building C object src/common/CMakeFiles/common.dir/pqclean_shims/fips202.c.o
+[17/534] Building C object src/common/CMakeFiles/common.dir/ossl_helpers.c.o
+[18/534] Building C object src/common/CMakeFiles/internal.dir/aes/aes_impl.c.o
+[19/534] Building C object src/common/CMakeFiles/common.dir/common.c.o
+[20/534] Building C object src/common/CMakeFiles/common.dir/rand/rand.c.o
+[21/534] Building C object src/common/CMakeFiles/internal.dir/aes/aes128_ni.c.o
+[22/534] Building C object src/common/CMakeFiles/internal.dir/sha2/sha2.c.o
+[23/534] Building C object src/common/CMakeFiles/common.dir/aes/aes_c.c.o
+[24/534] Building C object src/common/CMakeFiles/internal.dir/aes/aes.c.o
+[25/534] Building C object src/common/CMakeFiles/internal.dir/aes/aes256_ni.c.o
+[26/534] Building C object src/common/CMakeFiles/internal.dir/sha3/avx512vl_sha3x4.c.o
+[27/534] Building C object src/common/CMakeFiles/internal.dir/sha3/avx512vl_sha3.c.o
+[28/534] Building C object src/common/CMakeFiles/internal.dir/sha2/sha2_ossl.c.o
+[29/534] Building C object src/common/CMakeFiles/internal.dir/sha3/xkcp_sha3.c.o
+[30/534] Building C object src/common/CMakeFiles/internal.dir/sha3/xkcp_sha3x4.c.o
+[31/534] Building C object src/common/CMakeFiles/internal.dir/sha3/sha3.c.o
+[32/534] Building C object src/common/CMakeFiles/internal.dir/sha3/sha3x4.c.o
+[33/534] Building C object src/common/sha3/xkcp_low/CMakeFiles/xkcp_low_keccakp_1600times4_serial.dir/KeccakP-1600times4/serial/KeccakP-1600-times4-on1.c.o
+[34/534] Building C object src/common/CMakeFiles/internal.dir/common.c.o
+[35/534] Building C object src/common/CMakeFiles/internal.dir/aes/aes_c.c.o
+[36/534] Building C object src/common/CMakeFiles/internal.dir/ossl_helpers.c.o
+[37/534] Building ASM object src/common/sha3/xkcp_low/CMakeFiles/xkcp_low_keccakp_1600_avx2.dir/KeccakP-1600/avx2/KeccakP-1600-AVX2.S.o
+[38/534] Building ASM object src/common/sha3/avx512vl_low/CMakeFiles/sha3_avx512vl_low.dir/KeccakP-1600-times4-AVX512VL.S.o
+[39/534] Building ASM object src/common/sha3/avx512vl_low/CMakeFiles/sha3_avx512vl_low.dir/SHA3-times4-AVX512VL.S.o
+[40/534] Building ASM object src/common/sha3/avx512vl_low/CMakeFiles/sha3_avx512vl_low.dir/KeccakP-1600-AVX512VL.S.o
+[41/534] Building ASM object src/common/sha3/avx512vl_low/CMakeFiles/sha3_avx512vl_low.dir/SHA3-AVX512VL.S.o
+[42/534] Building C object src/common/CMakeFiles/internal.dir/rand/rand_nist.c.o
+[43/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_ref.dir/mlkem-native_ml-kem-512_ref/mlkem/src/debug.c.o
+[44/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_ref.dir/kem_ml_kem_512.c.o
+[45/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_ref.dir/mlkem-native_ml-kem-512_ref/mlkem/src/compress.c.o
+[46/534] Building C object src/common/CMakeFiles/common.dir/pqclean_shims/fips202x4.c.o
+[47/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_ref.dir/mlkem-native_ml-kem-512_ref/mlkem/src/verify.c.o
+[48/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_ref.dir/mlkem-native_ml-kem-512_ref/mlkem/src/indcpa.c.o
+[49/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_ref.dir/mlkem-native_ml-kem-512_ref/mlkem/src/poly_k.c.o
+[50/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_ref.dir/mlkem-native_ml-kem-512_ref/mlkem/src/sampling.c.o
+[51/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_ref.dir/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c.o
+[52/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/compress.c.o
+[53/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/basemul.S.o
+[54/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_ref.dir/mlkem-native_ml-kem-512_ref/mlkem/src/poly.c.o
+[55/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/basemul.c.o
+[56/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/indcpa.c.o
+[57/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/mulcache_compute.S.o
+[58/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/intt.S.o
+[59/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/debug.c.o
+[60/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/kem.c.o
+[61/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/ntt.S.o
+[62/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/ntttobytes.S.o
+[63/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/nttfrombytes.S.o
+[64/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/nttunpack.S.o
+[65/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/reduce.S.o
+[66/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/tomont.S.o
+[67/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/consts.c.o
+[68/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/poly.c.o
+[69/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/compress_avx2.c.o
+[70/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/sampling.c.o
+[71/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_ref.dir/kem_ml_kem_768.c.o
+[72/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/poly_k.c.o
+[73/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_ref.dir/mlkem-native_ml-kem-768_ref/mlkem/src/debug.c.o
+[74/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/rej_uniform_avx2.c.o
+[75/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/src/rej_uniform_table.c.o
+[76/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_ref.dir/mlkem-native_ml-kem-768_ref/mlkem/src/compress.c.o
+[77/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_512_x86_64.dir/mlkem-native_ml-kem-512_x86_64/mlkem/src/verify.c.o
+[78/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_ref.dir/mlkem-native_ml-kem-768_ref/mlkem/src/indcpa.c.o
+[79/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_ref.dir/mlkem-native_ml-kem-768_ref/mlkem/src/verify.c.o
+[80/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_ref.dir/mlkem-native_ml-kem-768_ref/mlkem/src/poly_k.c.o
+[81/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_ref.dir/mlkem-native_ml-kem-768_ref/mlkem/src/kem.c.o
+[82/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/debug.c.o
+[83/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/compress.c.o
+[84/534] Building C object src/common/sha3/xkcp_low/CMakeFiles/xkcp_low_keccakp_1600_plain64.dir/KeccakP-1600/plain-64bits/KeccakP-1600-opt64.c.o
+[85/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_ref.dir/mlkem-native_ml-kem-768_ref/mlkem/src/poly.c.o
+[86/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/basemul.S.o
+[87/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_ref.dir/mlkem-native_ml-kem-768_ref/mlkem/src/sampling.c.o
+[88/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/intt.S.o
+[89/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/mulcache_compute.S.o
+[90/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/indcpa.c.o
+[91/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/nttfrombytes.S.o
+[92/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/ntt.S.o
+[93/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/ntttobytes.S.o
+[94/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/reduce.S.o
+[95/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/nttunpack.S.o
+[96/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/tomont.S.o
+[97/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/kem.c.o
+[98/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/basemul.c.o
+[99/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/compress_avx2.c.o
+[100/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/consts.c.o
+[101/534] Building C object src/common/sha3/xkcp_low/CMakeFiles/xkcp_low_keccakp_1600times4_avx2.dir/KeccakP-1600times4/avx2/KeccakP-1600-times4-SIMD256.c.o
+[102/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/rej_uniform_table.c.o
+[103/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/src/rej_uniform_avx2.c.o
+[104/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_ref.dir/kem_ml_kem_1024.c.o
+[105/534] Linking C static library lib/liboqs-internal.a
+[106/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_ref.dir/mlkem-native_ml-kem-1024_ref/mlkem/src/debug.c.o
+[107/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/poly_k.c.o
+[108/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/poly.c.o
+[109/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/verify.c.o
+[110/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_ref.dir/mlkem-native_ml-kem-1024_ref/mlkem/src/verify.c.o
+[111/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_ref.dir/mlkem-native_ml-kem-1024_ref/mlkem/src/compress.c.o
+[112/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_768_x86_64.dir/mlkem-native_ml-kem-768_x86_64/mlkem/src/sampling.c.o
+[113/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_ref.dir/mlkem-native_ml-kem-1024_ref/mlkem/src/indcpa.c.o
+[114/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_ref.dir/mlkem-native_ml-kem-1024_ref/mlkem/src/sampling.c.o
+[115/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_ref.dir/mlkem-native_ml-kem-1024_ref/mlkem/src/poly_k.c.o
+[116/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/basemul.S.o
+[117/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_ref.dir/mlkem-native_ml-kem-1024_ref/mlkem/src/kem.c.o
+[118/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/compress.c.o
+[119/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_ref.dir/mlkem-native_ml-kem-1024_ref/mlkem/src/poly.c.o
+[120/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/intt.S.o
+[121/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/mulcache_compute.S.o
+[122/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/debug.c.o
+[123/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/ntt.S.o
+[124/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/ntttobytes.S.o
+[125/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/nttfrombytes.S.o
+[126/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/nttunpack.S.o
+[127/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/reduce.S.o
+[128/534] Building ASM object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/tomont.S.o
+[129/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/kem.c.o
+[130/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/indcpa.c.o
+[131/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/basemul.c.o
+[132/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/consts.c.o
+[133/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_ref.dir/sig_ml_dsa_44.c.o
+[134/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_ref.dir/mldsa-native_ml-dsa-44_ref/mldsa/src/ct.c.o
+[135/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/compress_avx2.c.o
+[136/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/rej_uniform_table.c.o
+[137/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_ref.dir/mldsa-native_ml-dsa-44_ref/mldsa/src/packing.c.o
+[138/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/poly.c.o
+[139/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_ref.dir/mldsa-native_ml-dsa-44_ref/mldsa/src/debug.c.o
+[140/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/src/rej_uniform_avx2.c.o
+[141/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/poly_k.c.o
+[142/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/verify.c.o
+[143/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/debug.c.o
+[144/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_ref.dir/mldsa-native_ml-dsa-44_ref/mldsa/src/polyvec.c.o
+[145/534] Building C object src/kem/ml_kem/CMakeFiles/ml_kem_1024_x86_64.dir/mlkem-native_ml-kem-1024_x86_64/mlkem/src/sampling.c.o
+[146/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/ct.c.o
+[147/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/consts.c.o
+[148/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/intt.S.o
+[149/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/ntt.S.o
+[150/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/nttunpack.S.o
+[151/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/pointwise.S.o
+[152/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/pointwise_acc_l7.S.o
+[153/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/pointwise_acc_l4.S.o
+[154/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/pointwise_acc_l5.S.o
+[155/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/poly_chknorm_avx2.c.o
+[156/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/poly_caddq_avx2.c.o
+[157/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_ref.dir/mldsa-native_ml-dsa-44_ref/mldsa/src/poly.c.o
+[158/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_ref.dir/mldsa-native_ml-dsa-44_ref/mldsa/src/sign.c.o
+[159/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_ref.dir/mldsa-native_ml-dsa-44_ref/mldsa/src/poly_kl.c.o
+[160/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/poly_decompose_32_avx2.c.o
+[161/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/poly_use_hint_32_avx2.c.o
+[162/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/polyz_unpack_17_avx2.c.o
+[163/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/rej_uniform_table.c.o
+[164/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/poly_decompose_88_avx2.c.o
+[165/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/polyz_unpack_19_avx2.c.o
+[166/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/packing.c.o
+[167/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/rej_uniform_avx2.c.o
+[168/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/rej_uniform_eta4_avx2.c.o
+[169/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/poly_use_hint_88_avx2.c.o
+[170/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/polyvec.c.o
+[171/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_ref.dir/sig_ml_dsa_65.c.o
+[172/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_ref.dir/mldsa-native_ml-dsa-65_ref/mldsa/src/ct.c.o
+[173/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/native/x86_64/src/rej_uniform_eta2_avx2.c.o
+[174/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_ref.dir/mldsa-native_ml-dsa-65_ref/mldsa/src/debug.c.o
+[175/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_ref.dir/mldsa-native_ml-dsa-65_ref/mldsa/src/packing.c.o
+[176/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/ct.c.o
+[177/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_ref.dir/mldsa-native_ml-dsa-65_ref/mldsa/src/polyvec.c.o
+[178/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/debug.c.o
+[179/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/consts.c.o
+[180/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/poly.c.o
+[181/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/intt.S.o
+[182/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/nttunpack.S.o
+[183/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/ntt.S.o
+[184/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/pointwise.S.o
+[185/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/pointwise_acc_l4.S.o
+[186/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/sign.c.o
+[187/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/pointwise_acc_l5.S.o
+[188/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/pointwise_acc_l7.S.o
+[189/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_ref.dir/mldsa-native_ml-dsa-65_ref/mldsa/src/poly.c.o
+[190/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_ref.dir/mldsa-native_ml-dsa-65_ref/mldsa/src/poly_kl.c.o
+[191/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/poly_caddq_avx2.c.o
+[192/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/poly_chknorm_avx2.c.o
+[193/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/poly_use_hint_32_avx2.c.o
+[194/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_ref.dir/mldsa-native_ml-dsa-65_ref/mldsa/src/sign.c.o
+[195/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/poly_decompose_88_avx2.c.o
+[196/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/poly_decompose_32_avx2.c.o
+[197/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/poly_use_hint_88_avx2.c.o
+[198/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/rej_uniform_table.c.o
+[199/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/packing.c.o
+[200/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/polyz_unpack_17_avx2.c.o
+[201/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/polyz_unpack_19_avx2.c.o
+[202/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/rej_uniform_eta2_avx2.c.o
+[203/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_44_x86_64.dir/mldsa-native_ml-dsa-44_x86_64/mldsa/src/poly_kl.c.o
+[204/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/rej_uniform_eta4_avx2.c.o
+[205/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/polyvec.c.o
+[206/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_ref.dir/mldsa-native_ml-dsa-87_ref/mldsa/src/ct.c.o
+[207/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_ref.dir/mldsa-native_ml-dsa-87_ref/mldsa/src/debug.c.o
+[208/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/native/x86_64/src/rej_uniform_avx2.c.o
+[209/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_ref.dir/sig_ml_dsa_87.c.o
+[210/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_ref.dir/mldsa-native_ml-dsa-87_ref/mldsa/src/packing.c.o
+[211/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/poly.c.o
+[212/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/ct.c.o
+[213/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/consts.c.o
+[214/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/debug.c.o
+[215/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_ref.dir/mldsa-native_ml-dsa-87_ref/mldsa/src/polyvec.c.o
+[216/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/intt.S.o
+[217/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/ntt.S.o
+[218/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/nttunpack.S.o
+[219/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/pointwise.S.o
+[220/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/pointwise_acc_l4.S.o
+[221/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/pointwise_acc_l5.S.o
+[222/534] Building ASM object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/pointwise_acc_l7.S.o
+[223/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/sign.c.o
+[224/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_65_x86_64.dir/mldsa-native_ml-dsa-65_x86_64/mldsa/src/poly_kl.c.o
+[225/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_ref.dir/mldsa-native_ml-dsa-87_ref/mldsa/src/poly.c.o
+[226/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_ref.dir/mldsa-native_ml-dsa-87_ref/mldsa/src/sign.c.o
+[227/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_ref.dir/mldsa-native_ml-dsa-87_ref/mldsa/src/poly_kl.c.o
+[228/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/poly_caddq_avx2.c.o
+[229/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/poly_decompose_88_avx2.c.o
+[230/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/poly_chknorm_avx2.c.o
+[231/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/poly_use_hint_88_avx2.c.o
+[232/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/polyz_unpack_17_avx2.c.o
+[233/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/polyz_unpack_19_avx2.c.o
+[234/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/rej_uniform_table.c.o
+[235/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/packing.c.o
+[236/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/poly_decompose_32_avx2.c.o
+[237/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/rej_uniform_eta2_avx2.c.o
+[238/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/poly_use_hint_32_avx2.c.o
+[239/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/rej_uniform_avx2.c.o
+[240/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/native/x86_64/src/rej_uniform_eta4_avx2.c.o
+[241/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/polyvec.c.o
+[242/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_clean.dir/sig_falcon_512.c.o
+[243/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_clean.dir/pqclean_falcon-512_clean/common.c.o
+[244/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_clean.dir/pqclean_falcon-512_clean/codec.c.o
+[245/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/poly.c.o
+[246/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_clean.dir/pqclean_falcon-512_clean/fpr.c.o
+[247/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_clean.dir/pqclean_falcon-512_clean/fft.c.o
+[248/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_clean.dir/pqclean_falcon-512_clean/pqclean.c.o
+[249/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_clean.dir/pqclean_falcon-512_clean/rng.c.o
+[250/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/sign.c.o
+[251/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_clean.dir/pqclean_falcon-512_clean/sign.c.o
+[252/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_avx2.dir/pqclean_falcon-512_avx2/fpr.c.o
+[253/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_avx2.dir/pqclean_falcon-512_avx2/common.c.o
+[254/534] Building C object src/sig/ml_dsa/CMakeFiles/ml_dsa_87_x86_64.dir/mldsa-native_ml-dsa-87_x86_64/mldsa/src/poly_kl.c.o
+[255/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_avx2.dir/pqclean_falcon-512_avx2/codec.c.o
+[256/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_clean.dir/pqclean_falcon-512_clean/vrfy.c.o
+[257/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_avx2.dir/pqclean_falcon-512_avx2/rng.c.o
+[258/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_clean.dir/sig_falcon_1024.c.o
+[259/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_avx2.dir/pqclean_falcon-512_avx2/pqclean.c.o
+[260/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_clean.dir/pqclean_falcon-1024_clean/codec.c.o
+[261/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_avx2.dir/pqclean_falcon-512_avx2/fft.c.o
+[262/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_clean.dir/pqclean_falcon-1024_clean/common.c.o
+[263/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_clean.dir/pqclean_falcon-1024_clean/fpr.c.o
+[264/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_clean.dir/pqclean_falcon-1024_clean/fft.c.o
+[265/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_clean.dir/pqclean_falcon-1024_clean/rng.c.o
+[266/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_avx2.dir/pqclean_falcon-512_avx2/sign.c.o
+[267/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_clean.dir/pqclean_falcon-1024_clean/pqclean.c.o
+[268/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_clean.dir/pqclean_falcon-512_clean/keygen.c.o
+[269/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_avx2.dir/pqclean_falcon-512_avx2/vrfy.c.o
+[270/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_clean.dir/pqclean_falcon-1024_clean/sign.c.o
+[271/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_avx2.dir/pqclean_falcon-1024_avx2/codec.c.o
+[272/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_avx2.dir/pqclean_falcon-1024_avx2/common.c.o
+[273/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_clean.dir/pqclean_falcon-1024_clean/vrfy.c.o
+[274/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_avx2.dir/pqclean_falcon-1024_avx2/pqclean.c.o
+[275/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_avx2.dir/pqclean_falcon-1024_avx2/fft.c.o
+[276/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_avx2.dir/pqclean_falcon-1024_avx2/fpr.c.o
+[277/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_avx2.dir/pqclean_falcon-1024_avx2/rng.c.o
+[278/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_clean.dir/sig_falcon_padded_512.c.o
+[279/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_clean.dir/pqclean_falcon-1024_clean/keygen.c.o
+[280/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_clean.dir/pqclean_falcon-padded-512_clean/codec.c.o
+[281/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_clean.dir/pqclean_falcon-padded-512_clean/common.c.o
+[282/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_clean.dir/pqclean_falcon-padded-512_clean/fft.c.o
+[283/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_clean.dir/pqclean_falcon-padded-512_clean/fpr.c.o
+[284/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_clean.dir/pqclean_falcon-padded-512_clean/rng.c.o
+[285/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_clean.dir/pqclean_falcon-padded-512_clean/pqclean.c.o
+[286/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_avx2.dir/pqclean_falcon-1024_avx2/sign.c.o
+[287/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_clean.dir/pqclean_falcon-padded-512_clean/sign.c.o
+[288/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_avx2.dir/pqclean_falcon-padded-512_avx2/common.c.o
+[289/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_avx2.dir/pqclean_falcon-1024_avx2/vrfy.c.o
+[290/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_avx2.dir/pqclean_falcon-padded-512_avx2/codec.c.o
+[291/534] Building C object src/sig/falcon/CMakeFiles/falcon_512_avx2.dir/pqclean_falcon-512_avx2/keygen.c.o
+[292/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_avx2.dir/pqclean_falcon-padded-512_avx2/fpr.c.o
+[293/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_clean.dir/pqclean_falcon-padded-512_clean/vrfy.c.o
+[294/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_avx2.dir/pqclean_falcon-padded-512_avx2/pqclean.c.o
+[295/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_clean.dir/sig_falcon_padded_1024.c.o
+[296/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_clean.dir/pqclean_falcon-padded-512_clean/keygen.c.o
+[297/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_avx2.dir/pqclean_falcon-padded-512_avx2/fft.c.o
+[298/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_clean.dir/pqclean_falcon-padded-1024_clean/codec.c.o
+[299/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_avx2.dir/pqclean_falcon-padded-512_avx2/rng.c.o
+[300/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_clean.dir/pqclean_falcon-padded-1024_clean/common.c.o
+[301/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_clean.dir/pqclean_falcon-padded-1024_clean/fpr.c.o
+[302/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_clean.dir/pqclean_falcon-padded-1024_clean/pqclean.c.o
+[303/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_clean.dir/pqclean_falcon-padded-1024_clean/rng.c.o
+[304/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_clean.dir/pqclean_falcon-padded-1024_clean/fft.c.o
+[305/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_clean.dir/pqclean_falcon-padded-1024_clean/sign.c.o
+[306/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_avx2.dir/pqclean_falcon-padded-512_avx2/vrfy.c.o
+[307/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_avx2.dir/pqclean_falcon-padded-1024_avx2/codec.c.o
+[308/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_avx2.dir/pqclean_falcon-padded-512_avx2/sign.c.o
+[309/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_clean.dir/pqclean_falcon-padded-1024_clean/vrfy.c.o
+[310/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_avx2.dir/pqclean_falcon-padded-1024_avx2/common.c.o
+[311/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_avx2.dir/pqclean_falcon-padded-1024_avx2/fft.c.o
+[312/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_avx2.dir/pqclean_falcon-padded-1024_avx2/rng.c.o
+[313/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_avx2.dir/pqclean_falcon-padded-1024_avx2/fpr.c.o
+[314/534] Building C object src/sig/falcon/CMakeFiles/falcon_1024_avx2.dir/pqclean_falcon-1024_avx2/keygen.c.o
+[315/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_avx2.dir/pqclean_falcon-padded-1024_avx2/pqclean.c.o
+[316/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/slh_dsa_c/sha2_512.c.o
+[317/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/slh_dsa_c/sha3_f1600.c.o
+[318/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/slh_dsa_c/sha2_256.c.o
+[319/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/slh_dsa_c/sha3_api.c.o
+[320/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_clean.dir/pqclean_falcon-padded-1024_clean/keygen.c.o
+[321/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/slh_dsa_c/slh_dsa.c.o
+[322/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_sha2_128f.c.o
+[323/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/slh_dsa_c/slh_prehash.c.o
+[324/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_sha2_128s.c.o
+[325/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_sha2_192s.c.o
+[326/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/slh_dsa_c/slh_sha2.c.o
+[327/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_sha2_256f.c.o
+[328/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_sha2_192f.c.o
+[329/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/slh_dsa_c/slh_shake.c.o
+[330/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_shake_128s.c.o
+[331/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_shake_128f.c.o
+[332/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_sha2_256s.c.o
+[333/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_shake_192f.c.o
+[334/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_shake_256f.c.o
+[335/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_shake_256s.c.o
+[336/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_224/slh_dsa_sha2_224_prehash_shake_192s.c.o
+[337/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_sha2_128f.c.o
+[338/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_sha2_128s.c.o
+[339/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_sha2_192f.c.o
+[340/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_sha2_192s.c.o
+[341/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_sha2_256f.c.o
+[342/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_avx2.dir/pqclean_falcon-padded-1024_avx2/sign.c.o
+[343/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_shake_128f.c.o
+[344/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_sha2_256s.c.o
+[345/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_shake_128s.c.o
+[346/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_shake_256s.c.o
+[347/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_shake_192f.c.o
+[348/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_shake_192s.c.o
+[349/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_256/slh_dsa_sha2_256_prehash_shake_256f.c.o
+[350/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_sha2_128f.c.o
+[351/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_sha2_192s.c.o
+[352/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_sha2_192f.c.o
+[353/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_sha2_128s.c.o
+[354/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_avx2.dir/pqclean_falcon-padded-1024_avx2/vrfy.c.o
+[355/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_sha2_256f.c.o
+[356/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_sha2_256s.c.o
+[357/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_shake_128f.c.o
+[358/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_shake_128s.c.o
+[359/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_shake_192f.c.o
+[360/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_shake_192s.c.o
+[361/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_sha2_128f.c.o
+[362/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_shake_256f.c.o
+[363/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_sha2_128s.c.o
+[364/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_sha2_256f.c.o
+[365/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_sha2_192f.c.o
+[366/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_384/slh_dsa_sha2_384_prehash_shake_256s.c.o
+[367/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_512_avx2.dir/pqclean_falcon-padded-512_avx2/keygen.c.o
+[368/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_sha2_256s.c.o
+[369/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_sha2_192s.c.o
+[370/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_shake_128s.c.o
+[371/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_shake_128f.c.o
+[372/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_shake_256f.c.o
+[373/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_shake_192s.c.o
+[374/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_shake_192f.c.o
+[375/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512/slh_dsa_sha2_512_prehash_shake_256s.c.o
+[376/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_sha2_128s.c.o
+[377/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_sha2_128f.c.o
+[378/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_sha2_192s.c.o
+[379/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_sha2_256f.c.o
+[380/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_sha2_192f.c.o
+[381/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_sha2_256s.c.o
+[382/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_shake_128f.c.o
+[383/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_shake_128s.c.o
+[384/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_shake_192s.c.o
+[385/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_shake_192f.c.o
+[386/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_shake_256f.c.o
+[387/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_224/slh_dsa_sha2_512_224_prehash_shake_256s.c.o
+[388/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_sha2_192f.c.o
+[389/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_sha2_128f.c.o
+[390/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_sha2_128s.c.o
+[391/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_sha2_192s.c.o
+[392/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_sha2_256f.c.o
+[393/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_shake_192f.c.o
+[394/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_sha2_256s.c.o
+[395/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_shake_192s.c.o
+[396/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_shake_128f.c.o
+[397/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_shake_128s.c.o
+[398/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_shake_256f.c.o
+[399/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha2_512_256/slh_dsa_sha2_512_256_prehash_shake_256s.c.o
+[400/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_sha2_128f.c.o
+[401/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_sha2_128s.c.o
+[402/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_sha2_256f.c.o
+[403/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_sha2_192f.c.o
+[404/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_sha2_192s.c.o
+[405/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_sha2_256s.c.o
+[406/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_shake_128f.c.o
+[407/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_shake_128s.c.o
+[408/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_shake_256f.c.o
+[409/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_shake_192f.c.o
+[410/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_shake_256s.c.o
+[411/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_224/slh_dsa_sha3_224_prehash_shake_192s.c.o
+[412/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_sha2_128f.c.o
+[413/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_sha2_192f.c.o
+[414/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_sha2_128s.c.o
+[415/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_sha2_192s.c.o
+[416/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_sha2_256f.c.o
+[417/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_sha2_256s.c.o
+[418/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_shake_128f.c.o
+[419/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_shake_128s.c.o
+[420/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_shake_192s.c.o
+[421/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_shake_192f.c.o
+[422/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_shake_256f.c.o
+[423/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_sha2_128f.c.o
+[424/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_sha2_128s.c.o
+[425/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_sha2_192s.c.o
+[426/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_sha2_192f.c.o
+[427/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_sha2_256f.c.o
+[428/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_256/slh_dsa_sha3_256_prehash_shake_256s.c.o
+[429/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_sha2_256s.c.o
+[430/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_shake_128f.c.o
+[431/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_shake_192s.c.o
+[432/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_shake_128s.c.o
+[433/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_shake_192f.c.o
+[434/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_shake_256f.c.o
+[435/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_384/slh_dsa_sha3_384_prehash_shake_256s.c.o
+[436/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_sha2_128f.c.o
+[437/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_sha2_192s.c.o
+[438/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_sha2_192f.c.o
+[439/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_sha2_128s.c.o
+[440/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_sha2_256s.c.o
+[441/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_sha2_256f.c.o
+[442/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_shake_128s.c.o
+[443/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_shake_128f.c.o
+[444/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_shake_192s.c.o
+[445/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_shake_192f.c.o
+[446/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_shake_256s.c.o
+[447/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_sha3_512/slh_dsa_sha3_512_prehash_shake_256f.c.o
+[448/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_sha2_128f.c.o
+[449/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_sha2_192s.c.o
+[450/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_sha2_256f.c.o
+[451/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_sha2_192f.c.o
+[452/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_shake_128f.c.o
+[453/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_sha2_128s.c.o
+[454/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_sha2_256s.c.o
+[455/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_shake_128s.c.o
+[456/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_shake_192f.c.o
+[457/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_shake_192s.c.o
+[458/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_sha2_128f.c.o
+[459/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_shake_256f.c.o
+[460/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_128/slh_dsa_shake_128_prehash_shake_256s.c.o
+[461/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_sha2_128s.c.o
+[462/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_sha2_192f.c.o
+[463/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_sha2_256s.c.o
+[464/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_shake_128s.c.o
+[465/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_sha2_192s.c.o
+[466/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_shake_128f.c.o
+[467/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_sha2_256f.c.o
+[468/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_shake_192f.c.o
+[469/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_shake_256s.c.o
+[470/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_shake_192s.c.o
+[471/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/prehash_shake_256/slh_dsa_shake_256_prehash_shake_256f.c.o
+[472/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_sha2_128s.c.o
+[473/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_sha2_128f.c.o
+[474/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_sha2_192s.c.o
+[475/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_sha2_256s.c.o
+[476/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_sha2_192f.c.o
+[477/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_shake_128f.c.o
+[478/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_shake_128s.c.o
+[479/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_sha2_256f.c.o
+[480/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_shake_256f.c.o
+[481/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_shake_256s.c.o
+[482/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_shake_192s.c.o
+[483/534] Building C object src/sig/slh_dsa/CMakeFiles/slh_dsa_c.dir/wrappers/pure/slh_dsa_pure_shake_192f.c.o
+[484/534] Building C object tests/CMakeFiles/example_kem.dir/example_kem.c.o
+[485/534] Building C object tests/CMakeFiles/kat_kem.dir/test_helpers.c.o
+[486/534] Building C object tests/CMakeFiles/test_hash.dir/test_hash.c.o
+[487/534] Building C object tests/CMakeFiles/test_aes.dir/test_aes.c.o
+[488/534] Building C object tests/CMakeFiles/test_kem.dir/test_kem.c.o
+[489/534] Building C object tests/CMakeFiles/kat_kem.dir/kat_kem.c.o
+[490/534] Building C object tests/CMakeFiles/test_sha3.dir/test_sha3.c.o
+[491/534] Building C object tests/CMakeFiles/test_kem.dir/test_helpers.c.o
+[492/534] Building C object tests/CMakeFiles/example_sig.dir/example_sig.c.o
+[493/534] Building C object tests/CMakeFiles/test_kem_mem.dir/test_kem_mem.c.o
+[494/534] Building C object tests/CMakeFiles/speed_common.dir/speed_common.c.o
+[495/534] Building C object tests/CMakeFiles/example_sig_stfl.dir/example_sig_stfl.c.o
+[496/534] Building C object tests/CMakeFiles/test_kem_mem.dir/test_helpers.c.o
+[497/534] Building C object tests/CMakeFiles/kat_sig.dir/test_helpers.c.o
+[498/534] Building C object tests/CMakeFiles/speed_kem.dir/speed_kem.c.o
+[499/534] Building C object tests/CMakeFiles/kat_sig.dir/kat_sig.c.o
+[500/534] Building C object tests/CMakeFiles/test_sig.dir/test_helpers.c.o
+[501/534] Building C object tests/CMakeFiles/kat_sig_stfl.dir/kat_sig_stfl.c.o
+[502/534] Building C object tests/CMakeFiles/test_sig.dir/test_sig.c.o
+[503/534] Building C object tests/CMakeFiles/kat_sig_stfl.dir/test_helpers.c.o
+[504/534] Building C object tests/CMakeFiles/dump_alg_info.dir/dump_alg_info.c.o
+[505/534] Building C object tests/CMakeFiles/test_sig_mem.dir/test_sig_mem.c.o
+[506/534] Building C object tests/CMakeFiles/test_sig_stfl.dir/test_sig_stfl.c.o
+[507/534] Building C object tests/CMakeFiles/speed_sig.dir/speed_sig.c.o
+[508/534] Building C object tests/CMakeFiles/test_sig_stfl.dir/test_helpers.c.o
+[509/534] Building C object tests/CMakeFiles/speed_sig_stfl.dir/speed_sig_stfl.c.o
+[510/534] Building C object tests/CMakeFiles/vectors_kem.dir/vectors_kem.c.o
+[511/534] Building C object tests/CMakeFiles/vectors_sig.dir/vectors_sig.c.o
+[512/534] Building C object src/sig/falcon/CMakeFiles/falcon_padded_1024_avx2.dir/pqclean_falcon-padded-1024_avx2/keygen.c.o
+[513/534] Linking C static library lib/liboqs.a
+[514/534] Linking C executable tests/test_hash
+[515/534] Linking C executable tests/test_sha3
+[516/534] Linking C executable tests/test_aes
+[517/534] Linking C executable tests/speed_common
+[518/534] Linking C executable tests/kat_kem
+[519/534] Linking C executable tests/example_sig_stfl
+[520/534] Linking C executable tests/example_kem
+[521/534] Linking C executable tests/test_kem_mem
+[522/534] Linking C executable tests/test_kem
+[523/534] Linking C executable tests/example_sig
+[524/534] Linking C executable tests/speed_kem
+[525/534] Linking C executable tests/kat_sig
+[526/534] Linking C executable tests/kat_sig_stfl
+[527/534] Linking C executable tests/test_sig
+[528/534] Linking C executable tests/speed_sig_stfl
+[529/534] Linking C executable tests/speed_sig
+[530/534] Linking C executable tests/test_sig_stfl
+[531/534] Linking C executable tests/test_sig_mem
+[532/534] Linking C executable tests/dump_alg_info
+[533/534] Linking C executable tests/vectors_sig
+[534/534] Linking C executable tests/vectors_kem
+[0/1] Install the project...
+-- Install configuration: ""
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/lib/cmake/liboqs/liboqsConfig.cmake
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/lib/cmake/liboqs/liboqsConfigVersion.cmake
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/lib/pkgconfig/liboqs.pc
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/lib/liboqs.a
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/lib/cmake/liboqs/liboqsTargets.cmake
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/lib/cmake/liboqs/liboqsTargets-noconfig.cmake
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/oqs.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/aes_ops.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/common.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/rand.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/sha2_ops.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/sha3_ops.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/sha3x4_ops.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/kem.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/sig.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/sig_stfl.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/kem_ml_kem.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/sig_ml_dsa.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/sig_falcon.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/sig_slh_dsa.h
+-- Installing: /home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs/oqsconfig.h
+oqsprovider (_build/lib/oqsprovider.so) not built: Building...
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Creating Release build
+-- Build will store public keys in PKCS#8 structures
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found suitable version "3.0.13", minimum required is "3.0")  
+-- liboqs found: Include dir at /home/jose/tls-pqc-lab/oqs-provider/.local/include;/home/jose/tls-pqc-lab/oqs-provider/.local/include/oqs (STATIC_LIBRARY)
+-- Building commit e2aed51 in /home/jose/tls-pqc-lab/oqs-provider
+-- Performing Test LD_SUPPORTS_EXCLUDE_LIBS
+-- Performing Test LD_SUPPORTS_EXCLUDE_LIBS - Success
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jose/tls-pqc-lab/oqs-provider/_build
+[  2%] Building C object oqsprov/CMakeFiles/oqsprovider.dir/oqsprov.c.o
+[  5%] Building C object oqsprov/CMakeFiles/oqsprovider.dir/oqsprov_capabilities.c.o
+[  8%] Building C object oqsprov/CMakeFiles/oqsprovider.dir/oqsprov_keys.c.o
+[ 11%] Building C object oqsprov/CMakeFiles/oqsprovider.dir/oqs_kmgmt.c.o
+[ 14%] Building C object oqsprov/CMakeFiles/oqsprovider.dir/oqs_sig.c.o
+[ 17%] Building C object oqsprov/CMakeFiles/oqsprovider.dir/oqs_kem.c.o
+[ 20%] Building C object oqsprov/CMakeFiles/oqsprovider.dir/oqs_encode_key2any.c.o
+[ 23%] Building C object oqsprov/CMakeFiles/oqsprovider.dir/oqs_endecoder_common.c.o
+[ 26%] Building C object oqsprov/CMakeFiles/oqsprovider.dir/oqs_decode_der2key.c.o
+[ 29%] Building C object oqsprov/CMakeFiles/oqsprovider.dir/oqsprov_bio.c.o
+[ 32%] Linking C shared module ../lib/oqsprovider.so
+[ 32%] Built target oqsprovider
+[ 35%] Building C object test/CMakeFiles/oqs_test_signatures.dir/oqs_test_signatures.c.o
+[ 38%] Building C object test/CMakeFiles/oqs_test_signatures.dir/test_common.c.o
+[ 41%] Linking C executable oqs_test_signatures
+[ 41%] Built target oqs_test_signatures
+[ 44%] Building C object test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.o
+[ 47%] Building C object test/CMakeFiles/oqs_test_kems.dir/test_common.c.o
+[ 50%] Linking C executable oqs_test_kems
+[ 50%] Built target oqs_test_kems
+[ 52%] Building C object test/CMakeFiles/oqs_test_libctx.dir/oqs_test_libctx.c.o
+[ 55%] Building C object test/CMakeFiles/oqs_test_libctx.dir/test_common.c.o
+[ 58%] Linking C executable oqs_test_libctx
+[ 58%] Built target oqs_test_libctx
+[ 61%] Building C object test/CMakeFiles/oqs_test_groups.dir/oqs_test_groups.c.o
+[ 64%] Building C object test/CMakeFiles/oqs_test_groups.dir/test_common.c.o
+[ 67%] Building C object test/CMakeFiles/oqs_test_groups.dir/tlstest_helpers.c.o
+[ 70%] Linking C executable oqs_test_groups
+[ 70%] Built target oqs_test_groups
+[ 73%] Building C object test/CMakeFiles/oqs_test_tlssig.dir/oqs_test_tlssig.c.o
+[ 76%] Building C object test/CMakeFiles/oqs_test_tlssig.dir/test_common.c.o
+[ 79%] Building C object test/CMakeFiles/oqs_test_tlssig.dir/tlstest_helpers.c.o
+[ 82%] Linking C executable oqs_test_tlssig
+[ 82%] Built target oqs_test_tlssig
+[ 85%] Building C object test/CMakeFiles/oqs_test_endecode.dir/oqs_test_endecode.c.o
+[ 88%] Building C object test/CMakeFiles/oqs_test_endecode.dir/test_common.c.o
+[ 91%] Linking C executable oqs_test_endecode
+[ 91%] Built target oqs_test_endecode
+[ 94%] Building C object test/CMakeFiles/oqs_test_evp_pkey_params.dir/oqs_test_evp_pkey_params.c.o
+[ 97%] Building C object test/CMakeFiles/oqs_test_evp_pkey_params.dir/test_common.c.o
+[100%] Linking C executable oqs_test_evp_pkey_params
+[100%] Built target oqs_test_evp_pkey_params
